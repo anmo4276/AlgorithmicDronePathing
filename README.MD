@@ -3,6 +3,7 @@ Algorithmic Drone Pathing
 Andres Montealegre, Alexis Acevedo, Ilya Zinyakin
 April 4th, 2021
 ```
+
 **Channel 7 Drone Abstract**
 
 Our modernized Channel 7 DJI Mavic 2 Pro Drone utilizes it’s capabilities to traffic news events
