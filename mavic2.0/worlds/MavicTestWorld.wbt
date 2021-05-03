@@ -1,0 +1,158 @@
+#VRML_SIM R2021a utf8
+WorldInfo {
+  basicTimeStep 4
+  defaultDamping Damping {
+    linear 0.7
+    angular 0.7
+  }
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 0.26528863220682847 0.6930865705643858 0.6702633417733128 3.6321527155881697
+  position 32.31374431061857 29.078614003349518 9.967805442996669
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 18 1.06581e-14 18
+  rotation 0 -1 0 3.06834e-07
+  floorSize 36 36
+  floorTileSize 1 1
+  wallHeight 5
+}
+Building {
+  translation 29.4203 0 30.1135
+  name "building(1)"
+  floorHeight 2
+  corners [
+    2 2
+    2 -2
+    -2 -2
+    -2 2
+  ]
+  wallAppearance PBRAppearance {
+    baseColor 0.666667 0.333333 0
+    roughness 1
+    metalness 0
+  }
+  roofAppearance PBRAppearance {
+    baseColor 1 0.333333 0
+    roughness 1
+    metalness 0
+  }
+  roofHeight 1
+}
+Building {
+  translation 25.3195 -0.72 15.8393
+  floorHeight 2
+  corners [
+    3 3
+    3 -3
+    -3 -3
+    -3 3
+  ]
+  wallAppearance PBRAppearance {
+    baseColor 0.666667 0.333333 0
+    roughness 1
+    metalness 0
+  }
+  roofAppearance PBRAppearance {
+    baseColor 1 0.333333 0
+    roughness 1
+    metalness 0
+  }
+  roofHeight 1
+}
+Building {
+  translation 13.3062 -0.72 8.34824
+  name "building(2)"
+  floorHeight 2
+  corners [
+    2 2
+    2 -2
+    -6 -2
+    -6 2
+  ]
+  wallAppearance PBRAppearance {
+    baseColor 0.666667 0.333333 0
+    roughness 1
+    metalness 0
+  }
+  roofAppearance PBRAppearance {
+    baseColor 1 0.333333 0
+    roughness 1
+    metalness 0
+  }
+  roofHeight 1
+}
+Building {
+  translation 7.01454 -0.72 23.9366
+  name "building(3)"
+  floorHeight 2
+  corners [
+    5 5
+    5 -5
+    -5 -5
+    -5 5
+  ]
+  wallAppearance PBRAppearance {
+    baseColor 0.666667 0.333333 0
+    roughness 1
+    metalness 0
+  }
+  roofAppearance PBRAppearance {
+    baseColor 1 0.333333 0
+    roughness 1
+    metalness 0
+  }
+  roofHeight 1
+}
+Building {
+  translation 20.2742 -0.72 27.49
+  name "building(4)"
+  floorHeight 2
+  corners [
+    2 2
+    2 -2
+    -2 -2
+    -2 2
+  ]
+  wallAppearance PBRAppearance {
+    baseColor 0.666667 0.333333 0
+    roughness 1
+    metalness 0
+  }
+  roofAppearance PBRAppearance {
+    baseColor 1 0.333333 0
+    roughness 1
+    metalness 0
+  }
+  roofHeight 1
+}
+Mavic2Pro {
+  translation 6.66638 0.089999 32.6664
+  rotation 0.9999100064071026 -0.008058040051633337 -0.010726000068728767 -1.5752953071795863
+  controller "MavicTestWorldController"
+}
+Pedestrian {
+  translation 28.8103 1.23 13.4061
+  rotation 0 1 0 2.0944
+  name "pedestrian(13)"
+}
+Pedestrian {
+  translation 28.7196 1.23 14.3553
+  rotation 0 1 0 2.0944
+  name "pedestrian(14)"
+}
+Pedestrian {
+  translation 29.2645 1.23 13.9596
+  rotation 0 1 0 2.0944
+  name "pedestrian(15)"
+}
+Pedestrian {
+  translation 28.5003 1.23 12.7965
+  rotation 0 1 0 2.0944
+  name "pedestrian(16)"
+}
