@@ -5,10 +5,10 @@ April 4th, 2021
 ```
 **Channel 7 Drone Abstract**
 
-Our modernized Channel 7 DJI Mavic 2 Pro Drone will utilize it’s capabilities to traffic news events
+Our modernized Channel 7 DJI Mavic 2 Pro Drone utilizes it’s capabilities to traffic news events
 happening around a city, removing the need for helicopters, delivering fast data on the target location, and
 in case of hazard areas can prevent the risk of human interaction for a more reliable news coverage. The
-drone will come with a lidar that will map out the surroundings, the DJI camera will take a video of the
+drone comes with a lidar that maps out the surroundings, the DJI camera will take a video of the
 target from the sky and utilize an RRT pathing system for the right approach in a reasonable amount of
 time on any randomized map.
 
