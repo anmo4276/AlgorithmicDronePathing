@@ -4,6 +4,7 @@ Andres Montealegre, Alexis Acevedo, Ilya Zinyakin
 April 4th, 2021
 ```
 **Channel 7 Drone Abstract**
+
 Our modernized Channel 7 DJI Mavic 2 Pro Drone will utilize it’s capabilities to traffic news events
 happening around a city, removing the need for helicopters, delivering fast data on the target location, and
 in case of hazard areas can prevent the risk of human interaction for a more reliable news coverage. The
