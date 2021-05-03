@@ -6,12 +6,7 @@ April 4th, 2021
 
 **Channel 7 Drone Abstract**
 
-Our modernized Channel 7 DJI Mavic 2 Pro Drone utilizes it’s capabilities to traffic news events
-happening around a city, removing the need for helicopters, delivering fast data on the target location, and
-in case of hazard areas can prevent the risk of human interaction for a more reliable news coverage. The
-drone comes with a lidar that maps out the surroundings, the DJI camera will take a video of the
-target from the sky and utilize an RRT pathing system for the right approach in a reasonable amount of
-time on any randomized map.
+Upper Division Software Project meant to capture the "tight interplay between mechanisms, sensors, and control in the design of intelligent systems" (Correll). Utilizing OpenStreetMaps API, DJI Mavic 2 Pro Drone Inverse Kinematics, and a custom Rapidly Exploring Random Trees Algorithm (RRT), this project is meant to optimize news reporting methods while minimizing risk associated with danger zones. Our Channel 7 DJI Mavic 2 Pro Drone incorporates each of these features to traffic news events happening around a city, removing the need for helicopters, delivering fast data on the target location, and in case of hazard areas can prevent the risk of human interaction for a more reliable news coverage. Using Lidar on the drone, we map the cities generated from OpenStreetMaps. These maps are then passed to our RRT algorithm, along with starting and target locations. The RRT algorithm uses these points and tree nodes to generate an optimal set of waypoints that resemble a path. This path is then passed to the drone, which utilizes inverse kinematics, to traverse through the real-life cities, while live streaming vide (which would be reported back to news rooms in theory).
 
 **Equipment:**
 1. DJI Mavic 2 Pro
